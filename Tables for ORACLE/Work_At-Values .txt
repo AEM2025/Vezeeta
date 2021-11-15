@@ -1,0 +1,49 @@
+insert all
+
+into WORK_AT (CLINIC_PHONE , D_ACCOUNT)
+values('+20115967670' , 'amira.elgebaly2020@gmail.com')
+
+into WORK_AT (CLINIC_PHONE , D_ACCOUNT)
+values('+20115967670' , 'jelicula32@gmail.com')
+
+into WORK_AT (CLINIC_PHONE , D_ACCOUNT)
+values('+20115967670' , 'omar.vander98@gmail.com')
+
+into WORK_AT (CLINIC_PHONE , D_ACCOUNT)
+values('+20115967670' , 'Salma.Zayed@gmail.com')
+
+into WORK_AT (CLINIC_PHONE , D_ACCOUNT)
+values('+201012166616','eeldeen30@gmail.com')
+
+into WORK_AT (CLINIC_PHONE , D_ACCOUNT)
+values('+201026999842','eeldeen30@gmail.com')
+
+into WORK_AT (CLINIC_PHONE , D_ACCOUNT)
+values('+201125327131','eeldeen30@gmail.com')
+
+into WORK_AT (CLINIC_PHONE , D_ACCOUNT)
+values('+201004000777','mamo.memo201095@gmail.com')
+
+into WORK_AT (CLINIC_PHONE , D_ACCOUNT)
+values('+201004000777','emada0471@gmail.com')
+
+into WORK_AT (CLINIC_PHONE , D_ACCOUNT)
+values('+201004000777','yarasamir27787@gmail.com')
+
+into WORK_AT (CLINIC_PHONE , D_ACCOUNT)
+values('+201004000777','kf.fathy@gmail.com')
+
+into WORK_AT (CLINIC_PHONE , D_ACCOUNT)
+values('+201122442259','eslamsayed22605@gmail.com')
+
+into WORK_AT (CLINIC_PHONE , D_ACCOUNT)
+values('+201004699146','eslamsayed22605@gmail.com')
+
+into WORK_AT (CLINIC_PHONE , D_ACCOUNT)
+values('+201220030665','eslamsayed22605@gmail.com')
+
+into WORK_AT (CLINIC_PHONE , D_ACCOUNT)
+values('+201116000768','eslamsayed22605@gmail.com')
+
+select * from dual;
+commit;

@@ -1,0 +1,23 @@
+insert all
+into doctor( D_ACCOUNT , D_NAME , AGE , SPECIALTY  , FEES )
+values('amira.elgebaly2020@gmail.com'    , 'Aya Ahmed' , 22 , 'Dentistry' , 43)
+into doctor( D_ACCOUNT , D_NAME , AGE , SPECIALTY  , FEES )
+values('jelicula32@gmail.com' , 'Ahmed Mohamed' , 23 , 'Neurology' , 50)
+into doctor( D_ACCOUNT , D_NAME , AGE , SPECIALTY  , FEES )
+values('omar.vander98@gmail.com' ,'Sayed Ahmed' , 21 , 'Orthopedics' , 45)
+into doctor( D_ACCOUNT , D_NAME , AGE , SPECIALTY  , FEES )
+values('Salma.Zayed@gmail.com' , 'Salma Mohamed' , 20 , 'Elders' , 44)
+into doctor( D_ACCOUNT , D_NAME , AGE , SPECIALTY  , FEES )
+values('eeldeen30@gmail.com'  , 'Emad Ahmed' , 25 , 'Dientitian and Nutrition' , 60)
+into doctor( D_ACCOUNT , D_NAME , AGE , SPECIALTY  , FEES )
+values('mamo.memo201095@gmail.com' , 'Islam Mohamed' , 22 , 'Chest and Respiratory', 47)
+into doctor( D_ACCOUNT , D_NAME , AGE , SPECIALTY  , FEES )
+values('emada0471@gmail.com' , 'Ahmed Abd Elrahman' , 21 , 'Dermatology' , 70)
+into doctor( D_ACCOUNT , D_NAME , AGE , SPECIALTY  , FEES )
+values('yarasamir27787@gmail.com' , 'Yara Samir' , 22 , 'Psychiatry' , 55)
+into doctor( D_ACCOUNT , D_NAME , AGE , SPECIALTY  , FEES )
+values('kf.fathy@gmail.com' , 'Karim Tarek' , 24 , 'Pediatrics' , 56)
+into doctor( D_ACCOUNT , D_NAME , AGE , SPECIALTY  , FEES )
+values('eslamsayed22605@gmail.com' , 'Islam Sayed' , 20 , 'Dentistry' , 62)
+select * from dual;
+commit;

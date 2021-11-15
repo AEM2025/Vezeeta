@@ -1,0 +1,51 @@
+insert all 
+into Examine(D_ACCOUNT , P_ACCOUNT )
+values('amira.elgebaly2020@gmail.com', 'yehiazebla455@gmail.com')
+
+into Examine(D_ACCOUNT , P_ACCOUNT )
+values('amira.elgebaly2020@gmail.com', 'alaaahmed519@gmail.com')
+
+into Examine(D_ACCOUNT , P_ACCOUNT )
+values('amira.elgebaly2020@gmail.com', 'norhanmohamed174@gmail.com')
+
+into Examine(D_ACCOUNT , P_ACCOUNT )
+values('jelicula32@gmail.com', 'Hebaismail159@gmail.com')
+
+into Examine(D_ACCOUNT , P_ACCOUNT )
+values('omar.vander98@gmail.com', 'Hebaismail159@gmail.com')
+
+into Examine(D_ACCOUNT , P_ACCOUNT )
+values('Salma.Zayed@gmail.com', 'Hebaismail159@gmail.com')
+
+into Examine(D_ACCOUNT , P_ACCOUNT )
+values('eeldeen30@gmail.com', 'wagdy.official@gmail.com')
+
+into Examine(D_ACCOUNT , P_ACCOUNT )
+values('eeldeen30@gmail.com', 'hossam.fcis@gmail.com')
+
+into Examine(D_ACCOUNT , P_ACCOUNT )
+values('eeldeen30@gmail.com', 'fadymamdouh20021@gmail.com')
+
+into Examine(D_ACCOUNT , P_ACCOUNT )
+values('mamo.memo201095@gmail.com', 'Andraw.nady505@gmail.com')
+
+into Examine(D_ACCOUNT , P_ACCOUNT )
+values('emada0471@gmail.com', 'Andraw.nady505@gmail.com')
+
+into Examine(D_ACCOUNT , P_ACCOUNT )
+values('yarasamir27787@gmail.com', 'Andraw.nady505@gmail.com')
+
+into Examine(D_ACCOUNT , P_ACCOUNT )
+values('kf.fathy@gmail.com', 'Andraw.nady505@gmail.com')
+
+into Examine(D_ACCOUNT , P_ACCOUNT )
+values('eslamsayed22605@gmail.com', 'ahmed.ibrahem3049@gmail.com')
+
+into Examine(D_ACCOUNT , P_ACCOUNT )
+values('eslamsayed22605@gmail.com', 'yehiazebla455@gmail.com')
+
+into Examine(D_ACCOUNT , P_ACCOUNT )
+values('eslamsayed22605@gmail.com', 'alaaahmed519@gmail.com')
+
+select* from dual;
+commit;

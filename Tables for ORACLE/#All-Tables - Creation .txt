@@ -1,0 +1,42 @@
+create table PATIENT
+(P_ACCOUNT varchar(50) primary key NOT NULL , PHONE varchar(50) NOT NULL , NAME varchar(50) NOT NULL , BIRTHDATE Date NOT NULL );
+----------------
+create table DOCTOR 
+(D_ACCOUNT varchar(50) primary key NOT NULL , SPECIALTY varchar(50) NOT NULL , AGE number NOT NULL , FEES  number NOT NULL , D_NAME varchar(50) NOT NULL);
+----------------
+create table CLINIC 
+(CLINIC_PHONE varchar(50) primary key NOT NULL , NAME varchar(50) NOT NULL , ADDRESS varchar(50) NOT NULL , Cost number NOT NULL , TIME_OF_WORK number NOT NULL );
+-------------------
+create table APPOINTMENT 
+(ID number primary key NOT NULL , CLINIC_PHONE varchar(50) not null , LOCATION varchar(50) NOT NULL ,  DAY DATE NOT NULL , TIME varchar(50) NOT NULL , P_ACCOUNT  varchar(50) not null, D_ACCOUNT varchar(50) not null);
+-------------------
+create table ABOUT_DOCTOR 
+(D_ACCOUNT varchar(50) primary key NOT NULL  , EDUCATION varchar(50) NOT NULL ,STATEMENT varchar(50) NULL , BACK_GROUND  varchar(50)  NULL);
+---------------------
+create table REVIEWS 
+(D_ACCOUNT varchar(50) NOT NULL  , RATE number NOT NULL , COMMENTS varchar(50) NULL );
+----------------
+create table WORK_ADDRESS 
+(D_ACCOUNT varchar(50) primary key NOT NULL  , ADDRESS varchar(50) NOT NULL );
+-------------
+create table EXAMINE 
+(D_ACCOUNT varchar(50) NOT NULL  , P_ACCOUNT varchar(50) NOT NULL);
+------------------------
+create table WORK_AT 
+(CLINIC_PHONE varchar(50) NOT NULL, D_ACCOUNT varchar(50) NOT NULL);
+----------------
+create table READ 
+(P_ACCOUNT varchar(50) NOT NULL , D_ACCOUNT varchar(50) NOT NULL);
+--------------------------
+create table SEARCH_FOR 
+(P_ACCOUNT varchar(50) NOT NULL , D_ACCOUNT varchar(50) NOT NULL , FEES  number NOT NULL , AREA varchar(50) NOT NULL , D_NAME varchar(50) NOT NULL );
+--------------------------
+create table ADMIN 
+- (ID number primary key NOT NULL , PASSWORD varchar(50) NOT NULL ); 
+------------------------
+create table DOCTORS 
+(ID number primary key NOT NULL , PASSWORD varchar(50) NOT NULL );
+---------------------------
+create table PATIENTS 
+(ID number primary key NOT NULL , PASSWORD varchar(50) NOT NULL );
+commit;

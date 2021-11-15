@@ -1,0 +1,36 @@
+insert all 
+into patient ( P_ACCOUNT , NAME , PHONE  , BIRTHDATE )
+values ('yehiazebla455@gmail.com', 'Mina Nabil' , '+201269475576' ,to_date('1998-05-15','YYYY-MM-DD'))
+
+into patient ( P_ACCOUNT , NAME , PHONE  , BIRTHDATE )
+values('alaaahmed519@gmail.com' , 'Alaa Ahmed' , '+201169475476' ,to_date('1988-05-15','YYYY-MM-DD') )
+
+into patient ( P_ACCOUNT , NAME , PHONE  , BIRTHDATE )
+values('norhanmohamed174@gmail.com' ,  'Norhan Mohamed' , '+201069385576' , to_date('1978-04-15','YYYY-MM-DD') )
+
+
+into patient ( P_ACCOUNT , NAME , PHONE  , BIRTHDATE )
+values('khaled.2500@gmail.com' , 'Khaled Moustafa' , '+201069473506' , to_date('1997-03-15','YYYY-MM-DD') )
+
+
+into patient ( P_ACCOUNT , NAME , PHONE  , BIRTHDATE )
+values('Hebaismail159@gmail.com' , 'Heba Ismail' , '+201169475576' , to_date('1999-02-15','YYYY-MM-DD'))
+
+into patient ( P_ACCOUNT , NAME , PHONE  , BIRTHDATE )
+values('wagdy.official@gmail.com' , 'Wagdy Usry' ,'+201269405436' , to_date('2000-05-20','YYYY-MM-DD'))
+
+
+into patient ( P_ACCOUNT , NAME , PHONE  , BIRTHDATE )
+values('hossam.fcis@gmail.com' , 'Hossam Khaled' , '+201269475576' , to_date('1998-09-11','YYYY-MM-DD') )
+
+into patient ( P_ACCOUNT , NAME , PHONE  , BIRTHDATE )
+values('fadymamdouh20021@gmail.com' , 'Fady Mamdouh' , '+201069475536' ,  to_date('2002-07-22','YYYY-MM-DD') )
+
+into patient ( P_ACCOUNT , NAME , PHONE  , BIRTHDATE )
+values('Andraw.nady505@gmail.com' , 'Andraw Nady' , '+201269475596' , to_date('1995-08-27','YYYY-MM-DD') )
+
+into patient ( P_ACCOUNT , NAME , PHONE  , BIRTHDATE )
+values('ahmed.ibrahem3049@gmail.com' , 'Ahmed Ibrahim' , '+201209475576' , to_date('2004-03-15','YYYY-MM-DD') )
+
+select * from dual;
+commit;

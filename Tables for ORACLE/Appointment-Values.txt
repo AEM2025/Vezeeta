@@ -1,0 +1,33 @@
+insert all
+into appointment (ID , LOCATION , CLINIC_PHONE ,  P_ACCOUNT, D_ACCOUNT ,  DAY , TIME  );
+values(201089779 , 'Maadi' , '+20115967670' , 'yehiazebla455@gmail.com' , 'amira.elgebaly2020@gmail.com' , to_date('2019-09-15','YYYY-MM-DD') , '7:00 PM')  
+
+into appointment (ID , LOCATION , CLINIC_PHONE ,  P_ACCOUNT, D_ACCOUNT ,  DAY , TIME  );
+values(211089779 ,  'Zamalek' , '+201012166616' , 'alaaahmed519@gmail.com' , 'jelicula32@gmail.com', to_date('2019-08-15','YYYY-MM-DD'),'5:00 PM')
+
+into appointment (ID , LOCATION , CLINIC_PHONE ,  P_ACCOUNT, D_ACCOUNT ,  DAY , TIME  );
+values(221089779 , 'Maadi' , '+201026999842' , 'norhanmohamed174@gmail.com' , 'omar.vander98@gmail.com' ,to_date('2019-07-20','YYYY-MM-DD'),'9:00 AM')
+
+into appointment (ID , LOCATION , CLINIC_PHONE ,  P_ACCOUNT, D_ACCOUNT ,  DAY , TIME  );
+values(231029775 , 'Heliopolis' , '+201125327131'  , 'khaled.2500@gmail.com' , 'Salma.Zayed@gmail.com' , to_date('2019-07-25','YYYY-MM-DD'),'10:00 AM')
+
+into appointment (ID , LOCATION , CLINIC_PHONE ,  P_ACCOUNT, D_ACCOUNT ,  DAY , TIME  );
+values(241089779 ,  'Sheikh Zayed' , '+201004000777' , 'Hebaismail159@gmail.com' , 'eeldeen30@gmail.com' , to_date('2019-09-25','YYYY-MM-DD') , '4:00 PM')
+
+into appointment (ID , LOCATION , CLINIC_PHONE ,  P_ACCOUNT, D_ACCOUNT ,  DAY , TIME  );
+values(251089779 , 'Maadi' , '+201122442259' , 'wagdy.official@gmail.com' , 'mamo.memo201095@gmail.com' , to_date('2019-09-12','YYYY-MM-DD') , '5:00 PM')
+
+into appointment (ID , LOCATION , CLINIC_PHONE ,  P_ACCOUNT, D_ACCOUNT ,  DAY , TIME  );
+values(261089779 , 'Dokki', '+201004699146' , 'hossam.fcis@gmail.com' , 'emada0471@gmail.com', to_date('2019-10-17','YYYY-MM-DD') , '6:00 PM')
+
+into appointment (ID , LOCATION , CLINIC_PHONE ,  P_ACCOUNT, D_ACCOUNT ,  DAY , TIME  );
+values(271089779 , 'Sheraton' , '+201220030665' , 'fadymamdouh20021@gmail.com' , 'yarasamir27787@gmail.com' , to_date('2019-10-22','YYYY-MM-DD') , '8:00 PM')
+
+into appointment (ID , LOCATION , CLINIC_PHONE ,  P_ACCOUNT, D_ACCOUNT ,  DAY , TIME  );
+values(281089779 , 'Maadi' , '+201116000768' , 'Andraw.nady505@gmail.com' , 'kf.fathy@gmail.com' ,to_date( '2019-10-23','YYYY-MM-DD') , '8:00 PM')
+
+into appointment (ID , LOCATION , CLINIC_PHONE ,  P_ACCOUNT, D_ACCOUNT ,  DAY , TIME  );
+values(291089779 , 'Heliopolis' , '+201098405000' , 'ahmed.ibrahem3049@gmail.com' , 'eslamsayed22605@gmail.com' , to_date('2019-11-25','YYYY-MM-DD') , '10:00 AM')
+
+select * from dual;
+commit;

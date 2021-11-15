@@ -1,0 +1,23 @@
+insert all 
+into clinic( NAME , ADDRESS , CLINIC_PHONE ,   Cost , TIME_OF_WORK )
+values('Osman Dental Clinic' , 'Maadi' , '+20115967670', 40 , 5)
+into clinic( NAME , ADDRESS , CLINIC_PHONE ,   Cost , TIME_OF_WORK )
+values('Gizele Clinic' , 'Zamalek' , '+201012166616' , 42 , 8)
+into clinic( NAME , ADDRESS , CLINIC_PHONE ,   Cost , TIME_OF_WORK )
+values('Degla Medical Center' , 'Maadi' , '+201026999842', 43 , 10)
+into clinic( NAME , ADDRESS , CLINIC_PHONE ,   Cost , TIME_OF_WORK )
+values('CosmoSlim' , 'Heliopolis' , '+201125327131'  , 45 , 12)
+into clinic( NAME , ADDRESS , CLINIC_PHONE ,   Cost , TIME_OF_WORK )
+values('Oasis Clinics' ,  'Sheikh Zayed' , '+201004000777' , 36, 24)
+into clinic( NAME , ADDRESS , CLINIC_PHONE ,   Cost , TIME_OF_WORK )
+values('Derma Life' , 'Maadi' , '+201122442259', 41 , 6)
+into clinic( NAME , ADDRESS , CLINIC_PHONE ,   Cost , TIME_OF_WORK )
+values('DermaHealth' ,'Dokki', '+201004699146' , 50 , 9)
+into clinic( NAME , ADDRESS , CLINIC_PHONE ,   Cost , TIME_OF_WORK )
+values('Eden Skin Clinic' , 'Sheraton' , '+201220030665' , 40 , 10)
+into clinic( NAME , ADDRESS , CLINIC_PHONE ,   Cost , TIME_OF_WORK )
+values('Maadi Derma Laser Clinic' , 'Maadi' , '+201116000768' , 51 , 4)
+into clinic( NAME , ADDRESS , CLINIC_PHONE ,   Cost , TIME_OF_WORK )
+values('Visage Laser Clinic' , 'Heliopolis' , '+201098405000' , 54 , 8)
+select * from dual;
+commit;
