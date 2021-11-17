@@ -1,0 +1,114 @@
+create or replace PROCEDURE add_clinic
+(mob  in VARCHAR2,namee in VARCHAR2,addr in VARCHAR2,cos in NUMBER,timee in NUMBER)
+as
+begin
+insert into clinic values(mob,namee,addr,cos,timee);
+end add_clinic;
+
+
+create or replace PROCEDURE ADD_DOC_IN_CLINIC
+(mob in VARCHAR2,acc in VARCHAR2)
+as
+begin
+insert into work_at values(mob,acc);
+end ADD_DOC_IN_CLINIC;
+
+
+create or replace PROCEDURE add_review
+(acc in VARCHAR2 , grade in NUMBER , com in VARCHAR2 )
+as
+begin
+insert into reviews values(acc, grade, com);
+end add_review;
+
+
+create or replace PROCEDURE AdminLOGIN
+(idd out NUMBER , passwordd out VARCHAR2)
+as
+begin
+select ID,PASSWORD
+INTO idd, passwordd
+from ADMINS;
+end AdminLOGIN;
+
+
+create or replace PROCEDURE del_clinic
+(mob in  VARCHAR2)
+as
+begin
+delete from clinic where PHONE = mob;
+delete from work_at where clinic_phone = mob;
+delete from APPOINTMENT where clinic_phone = mob;
+end del_clinic;
+
+
+create or replace PROCEDURE ins_app
+(iden in NUMBER , ph in VARCHAR2 , loc in VARCHAR2 , youm in DATE , tm in VARCHAR2 , pa in VARCHAR2  ,da in VARCHAR2)
+as
+begin
+insert into appointment values(iden,ph,loc, youm,tm,pa,da);
+end ins_app;
+
+
+create or replace PROCEDURE ins_patient
+(nid in NUMBER , npass in VARCHAR2 , nname in VARCHAR2 , nphone in VARCHAR2 , naccount in VARCHAR2 , birth in DATE)
+as
+begin
+insert into patients values(nid, npass);
+insert into patient values(naccount, nphone, nname, birth);
+end ins_patient;
+
+
+create or replace PROCEDURE max_appointment_ID
+(iden out NUMBER)
+as
+begin
+select Max(id)
+into iden
+from appointment;
+end max_appointment_ID;
+
+
+create or replace PROCEDURE MAX_PATIENT_ID
+(maxi out NUMBER)
+as
+begin
+select max(ID)
+into maxi
+from patients;
+end MAX_PATIENT_ID;
+
+
+create or replace PROCEDURE select_all_patients
+(login out sys_refcursor)
+as
+begin
+open login for
+select * from patients;
+end select_all_patients;
+
+
+create or replace PROCEDURE select_clinic_phones
+(src out sys_refcursor)
+as
+begin
+open src for
+select PHONE from clinic;
+end select_clinic_phones;
+
+
+create or replace PROCEDURE upd_admin
+(idd in NUMBER , pass in VARCHAR2)
+as
+begin
+update admins set id = idd , password = pass;
+end upd_admin;
+
+
+create or replace PROCEDURE upd_PatientPass
+(identifer in NUMBER, pass in VARCHAR2)
+as
+begin
+update PATIENTS set PASSWORD = pass
+where id = identifer;
+end upd_PatientPass;
