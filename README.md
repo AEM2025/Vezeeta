@@ -27,3 +27,7 @@ This project is divide into two phases:
       - Calling reports from C#.
    - GUI:
       - There should be a main form containing menus to open all forms and reports of the project.
+
+## Quickstart:
+- Download <a href="https://visualstudio.microsoft.com/downloads/" target="_blank"> Microsoft Visual Studio </a> version 2015 or above.
+- Download <a href="https://www.oracle.com/database/technologies/oracle-database-software-downloads.html" target="_blank"> Oracle Database </a> version 11g or above.
